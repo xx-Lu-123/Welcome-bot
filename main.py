@@ -1,3 +1,4 @@
+work:python3 main.py
 import discord
 from discord.ext import commands
 from discord import app_commands
