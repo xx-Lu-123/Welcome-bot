@@ -4,7 +4,6 @@ from discord import app_commands
 import json
 import os
 from dotenv import load_dotenv
-from keep_alive import keep_alive
 
 load_dotenv()
 TOKEN = os.getenv("DISCORD_TOKEN")
@@ -162,6 +161,5 @@ async def on_member_remove(member):
             await channel.send(embed=embed)
         else:
             await channel.send(message)
-
-keep_alive()
+            
 bot.run(TOKEN)
