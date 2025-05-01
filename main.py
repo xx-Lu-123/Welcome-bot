@@ -125,6 +125,9 @@ async def welcomehelp(interaction: discord.Interaction):
             "4. `/setuserphotos` 設定是否顯示使用者大頭貼\n"
             "5. `/welcomehelp` 查看此幫助訊息\n"
             "6. `{user}` 可提及使用者\n\n"
+            "**📝更新日誌：**\n"
+            "1. 新增指令`/setuserphotos`可變更是否截取使用者頭像\n"
+            "2. 新增`24`小時在線功能\n"
             "```機器人版本：v1.2.2\n上線狀態：✅```\n"
             "如果還有可以改進的地方可以點擊下方按鈕，給予建議\n感謝使用《歡迎Cat》機器人"
         ),
