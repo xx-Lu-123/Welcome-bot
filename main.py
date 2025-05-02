@@ -128,7 +128,8 @@ async def welcomehelp(interaction: discord.Interaction):
             "**📝更新日誌：**\n"
             "1. 新增指令`/setuserphotos`可變更是否截取使用者頭像\n"
             "2. 新增`24`小時在線功能\n"
-            "```機器人版本：v1.2.2\n上線狀態：✅```\n"
+            "3. 變更`/welcomehelp`指令回覆方式、機器人頭像\n"
+            "```機器人版本：v1.3.2\nBot上線狀態：🟢\n伺服器延遲：🟡```\n"
             "如果還有可以改進的地方可以點擊下方按鈕，給予建議\n感謝使用《歡迎Cat》機器人"
         ),
         color=discord.Color.blue()
